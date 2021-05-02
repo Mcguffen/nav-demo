@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a{text-decoration: none;}
+kbd{border: 1px solid red;width: 4em;height: 4em;display: inline-flex;}
+
+.keyboard{
+    margin: 100px auto;
+    position: absolute;
+}
+main > div{
+    position: relative;
+}

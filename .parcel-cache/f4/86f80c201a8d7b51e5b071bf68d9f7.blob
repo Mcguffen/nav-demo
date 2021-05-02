@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的导航</title>
+</head>
+<body>
+    <header></header>
+        <main>
+
+        </main>
+    <footer></footer>
+    <script data-parcel-key="e455b9ab84b0d539ae67091af2183a0d">
+        var key = [
+            
+            [
+                'esc','F1','F2','F3','F4','F5',
+                'F6','F7','F8','F9','F10','F11',
+                'F12','Print Screen Sys Rq','Pause Break','Delete',
+            
+            ],
+            '1':
+            [
+                '`','1','2','3','4','5','6',
+                '7','8','9','0','-','=','Backspace','Home',
+            ],
+            '2':
+            [
+                'Tab','Q','W','E','R','T','Y',
+                'U','I','O','P','[',']','\','PageUp',
+            ],
+            '3':
+            [
+                'Ctrl','A','S','D','F','G','H',
+                'J','K','L',';','单','Enter','Page Down',
+            ],
+            '4':
+            [
+                'Shift','Z','X','C','V','B','N',
+                'M',',','.','/','Shift','↑','End',
+            ],
+            '5':
+            {
+                'Caps','option','command','long','Alt','Fn',
+                'Ctrl','←','↓','→',
+                length: 10
+            },
+            
+        ]
+    </script>
+</body>
+</html>

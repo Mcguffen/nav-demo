@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的导航</title>
+</head>
+<body>
+    <header></header>
+        <main>
+            <div>
+                escF1F2F3F4F5
+                F6F7F8F9F10F11
+                F12Print Screen Sys RqPause BreakDelete
+            </div>
+
+            <div>
+                `123456
+                7890-=BackspaceHome
+            </div>
+
+            <div>
+                TabQWERTY
+                UIOP[]\Pafe Up
+            </div>
+
+            <div>
+                CtrlASDFGH
+                JKL;'EnterPage Down
+            </div>
+
+            <div>
+                ShiftZXCVBN
+                M,./Shift↑End
+            </div>
+
+            <div>
+                CapsoptioncommandlongAltFn
+                Ctrl←↓→
+            </div>
+        </main>
+    <footer></footer>
+    <script data-parcel-key="33db5b9b9803273af6b6fb473567863c">
+
+    </script>
+</body>
+</html>

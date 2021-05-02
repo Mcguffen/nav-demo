@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的导航</title>
+</head>
+<body>
+    <header></header>
+        <main>
+            <div>
+                <kbd>esc</kbd><kbd>F1</kbd><kbd>F2</kbd><kbd>F3</kbd><kbd>F4</kbd><kbd>F5</kbd>
+                <kbd>F6</kbd><kbd>F7</kbd><kbd>F8</kbd><kbd>F9</kbd><kbd>F10</kbd><kbd>F11</kbd>
+                <kbd>F12</kbd><kbd>Print Screen Sys Rq</kbd><kbd>Pause Break</kbd><kbd>Delete</kbd>
+            </div>
+
+            <div>
+                <kbd>`</kbd><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd><kbd>5</kbd><kbd>6</kbd>
+                <kbd>7</kbd><kbd>8</kbd><kbd>9</kbd><kbd>0</kbd><kbd>-</kbd><kbd>=</kbd><kbd>Backspace</kbd><kbd>Home</kbd>
+            </div>
+
+            <div>
+                <kbd>Tab</kbd><kbd>Q</kbd><kbd>W</kbd><kbd>E</kbd><kbd>R</kbd><kbd>T</kbd><kbd>Y</kbd>
+                <kbd>U</kbd><kbd>I</kbd><kbd>O</kbd><kbd>P</kbd><kbd>[</kbd><kbd>]</kbd><kbd>\</kbd><kbd>Pafe Up</kbd>
+            </div>
+
+            <div>
+                <kbd>Ctrl</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><kbd>F</kbd><kbd>G</kbd><kbd>H</kbd>
+                <kbd>J</kbd><kbd>K</kbd><kbd>L</kbd><kbd>;</kbd><kbd>'</kbd><kbd>Enter</kbd><kbd>Page Down</kbd>
+            </div>
+
+            <div>
+                <kbd>Shift</kbd><kbd>Z</kbd><kbd>X</kbd><kbd>C</kbd><kbd>V</kbd><kbd>B</kbd><kbd>N</kbd>
+                <kbd>M</kbd><kbd>,</kbd><kbd>.</kbd><kbd>/</kbd><kbd>Shift</kbd><kbd>↑</kbd><kbd>End</kbd>
+            </div>
+
+            <div>
+                <kbd>Caps</kbd><kbd>option</kbd><kbd>command</kbd><kbd>long</kbd><kbd>Alt</kbd><kbd>Fn</kbd>
+                <kbd>Ctrl</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd>
+            </div>
+        </main>
+    <footer></footer>
+</body>
+</html><script src="/index.HASH_REF_1cf92b8ac789bf0c8bd4b6d53ebff041.js"></script>

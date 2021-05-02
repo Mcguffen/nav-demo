@@ -1,0 +1,3 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+kbd{border: 1px solid red;width: 2em;}

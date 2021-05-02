@@ -1,0 +1,8 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a{text-decoration: none;}
+kbd{border: 1px solid red;height: 4em;}
+main>div{
+    display: flex;justify-content: center;align-items: center;
+}
+
+/*# sourceMappingURL=index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css.map */
