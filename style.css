@@ -6,7 +6,7 @@ position: relative;
 }
 
 .key{
-    background:  rgb(247,247,247);
+    background:  rgb(241,241,241);
     color: rgb(131,131,131);
     border-radius: 4px;
     box-shadow: 0 0 0 1px rgb(175,175,175),0 0 0 1px rgb(168,168,168),0 3px 0 2px rgb(175,175,175);
@@ -62,86 +62,145 @@ main{
     height: 100vh;
 }
 
+/* ESC */
+#keyboard>div:nth-child(1)>kbd:nth-child(1){
+
+    background: rgb(204,209,213);
+
+}
+/* F5 */
+#keyboard>div:nth-child(1)>kbd:nth-child(6){
+
+    background: rgb(204,209,213);
+
+}
+/* F6 */
+#keyboard>div:nth-child(1)>kbd:nth-child(7){
+
+    background: rgb(204,209,213);
+
+}
+/* F7 */
+#keyboard>div:nth-child(1)>kbd:nth-child(8){
+
+    background: rgb(204,209,213);
+
+}
+/* F8 */
+#keyboard>div:nth-child(1)>kbd:nth-child(9){
+
+    background: rgb(204,209,213);
+
+}
+/* Print */
+#keyboard>div:nth-child(1)>kbd:nth-child(14){
+
+    background: rgb(204,209,213);
+
+}
+/* Pause */
+#keyboard>div:nth-child(1)>kbd:nth-child(15){
+
+    background: rgb(204,209,213);
+
+}
 /* back键 */
 #keyboard>div:nth-child(2)>kbd:nth-child(14){
     height: 40px;
     width: 88px;
+
+    background: rgb(204,209,213);
 
 }
 /* tab键 */
 #keyboard>div:nth-child(3)>kbd:nth-child(1){
     height: 40px;
     width: 66px;
+    background: rgb(204,209,213);
+
 
 }
 /* \键 */
 #keyboard>div:nth-child(3)>kbd:nth-child(14){
     height: 40px;
     width: 62px;
+    background: rgb(204,209,213);
 
 }
 /* ctrl键 */
 #keyboard>div:nth-child(4)>kbd:nth-child(1){
     height: 40px;
     width: 80px;
+    background: rgb(204,209,213);
 
 }
 /* enter键 */
 #keyboard>div:nth-child(4)>kbd:nth-child(13){
     height: 40px;
     width: 96px;
+    background: rgb(204,209,213);
 
 }
 /* 左shift键 */
 #keyboard>div:nth-child(5)>kbd:nth-child(1){
     height: 40px;
     width: 100px;
+    background: rgb(204,209,213);
 
 }
 /* 右shift键 */
 #keyboard>div:nth-child(5)>kbd:nth-child(12){
     height: 40px;
     width: 76px;
+    background: rgb(204,209,213);
 
 }
 /* capslk键 */
 #keyboard>div:nth-child(6)>kbd:nth-child(1){
     height: 40px;
     width: 51px;
+    background: rgb(204,209,213);
 
 }
 /* option键 */
 #keyboard>div:nth-child(6)>kbd:nth-child(2){
     height: 40px;
     width: 51px;
+    background: rgb(204,209,213);
 
 }
 /* commond键 */
 #keyboard>div:nth-child(6)>kbd:nth-child(3){
     height: 40px;
     width: 51px;
+    background: rgb(204,209,213);
+
 }
 /* 空格键 */
 #keyboard>div:nth-child(6)>kbd:nth-child(4){
     height: 40px;
     width: 260px;
 
+
 }
 /* 右alt键 */
 #keyboard>div:nth-child(6)>kbd:nth-child(5){
     height: 40px;
     width: 51px;
+    background: rgb(204,209,213);
 
 }
 /* 右Fn键 */
 #keyboard>div:nth-child(6)>kbd:nth-child(6){
     height: 40px;
     width: 51px;
+    background: rgb(204,209,213);
 
 }
 /* 右ctrl键 */
 #keyboard>div:nth-child(6)>kbd:nth-child(7){
     height: 40px;
     width: 51px;
+    background: rgb(204,209,213);
 
 }
