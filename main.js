@@ -57,7 +57,7 @@ var hash = {
 }
 // 浏览器中的hash
 // 取出localStorage中的'userWebsiteEdit'内容，因为是字符串所以解析成hash
-var hashInLocalStorage = JSON.parse(localStorage.getItem('userWebsiteEdit') || '')
+var hashInLocalStorage = JSON.parse(localStorage.getItem('userWebsiteEdit') || 'null')
 
 // 覆盖修改前的js给浏览器的hash 
 if(hashInLocalStorage){
