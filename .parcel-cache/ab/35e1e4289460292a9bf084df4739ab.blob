@@ -102,7 +102,7 @@ function initData(){
         ],
         
         [
-            'Caps','option','command','niz','Alt','Fn',
+            'Caps','option','command','NIZ','Alt','Fn',
             'Ctrl','←','↓','→',
         ],
         
@@ -110,24 +110,24 @@ function initData(){
     // js中的hash,可以理解为初始化用到的数据。
     var hash = {
         
-            'esc':'qq.com','F1':'qq.com','F2':'qq.com','F3':'qq.com','F4':'qq.com','F5':'qq.com',
-            'F6':'qq.com','F7':'qq.com','F8':'qq.com','F9':'qq.com','F10':'qq.com','F11':'qq.com',
-            'F12':'qq.com','Print':'qq.com','Pause':'qq.com','Del':'qq.com',
+            'esc':'undefined','F1':'undefined','F2':'undefined','F3':'undefined','F4':'undefined','F5':'undefined',
+            'F6':'undefined','F7':'undefined','F8':'undefined','F9':'undefined','F10':'undefined','F11':'undefined',
+            'F12':'undefined','Print':'undefined','Pause':'undefined','Del':'undefined',
         
-            '`':'diandian.com','1':'qq.com','2':'qq.com','3':'qq.com','4':'qq.com','5':'qq.com','6':'qq.com',
-            '7':'qq.com','8':'qq.com','9':'qq.com','0':'qq.com','-':'qq.com','=':'qq.com','Back':'qq.com','Home':'qq.com',
+            '`':'diandian.com','1':'undefined','2':'undefined','3':'undefined','4':'undefined','5':'undefined','6':'undefined',
+            '7':'undefined','8':'undefined','9':'undefined','0':'undefined','-':'undefined','=':'undefined','Back':'undefined','Home':'undefined',
         
-            'Tab':'qq.com','q':'qq.com','w':'weibo.com','e':'','r':'qq.com','t':'','y':'youtube.com',
-            'u':'qq.com','i':'iconfont.cn','o':'qq.com','p':'qq.com','[':'qq.com',']':'qq.com','\\':'qq.com','Up':'qq.com',
+            'Tab':'undefined','q':'qq.com','w':'weibo.com','e':'','r':'undefined','t':'','y':'youtube.com',
+            'u':'undefined','i':'iconfont.cn','o':'undefined','p':'undefined','[':'undefined',']':'undefined','\\':'undefined','Up':'undefined',
         
-            'Ctrl':'qq.com','a':'acfun.com','s':'sm.ms','d':'dribble.com','f':'','g':'github.com','h':'qq.com',
-            'j':'jdbbs.com','k':'qq.com','l':'qq.com',';':'qq.com','\'':'qq.com','Enter':'qq.com','Down':'qq.com',
+            'Ctrl':'undefined','a':'acfun.com','s':'sm.ms','d':'dribble.com','f':'','g':'github.com','h':'undefined',
+            'j':'jdbbs.com','k':'undefined','l':'undefined',';':'undefined','\'':'undefined','Enter':'undefined','Down':'undefined',
         
-            'Shift':'qq.com','z':'qq.com','x':'qq.com','c':'cssgradient.io','v':'v2ex.com','b':'bilili.com','n':'qq.com',
-            'm':'mcguffen.github.io',',':'qq.com','.':'qq.com','/':'qq.com','Shift':'qq.com','↑':'qq.com','End':'qq.com',
+            'Shift':'undefined','z':'undefined','x':'undefined','c':'cssgradient.io','v':'v2ex.com','b':'bilili.com','n':'undefined',
+            'm':'mcguffen.github.io',',':'undefined','.':'undefined','/':'undefined','Shift':'undefined','↑':'undefined','End':'undefined',
         
-            'Caps':'qq.com','option':'qq.com','command':'qq.com','niz':'qq.com','Alt':'qq.com','Fn':'qq.com',
-            'Ctrl':'qq.com','←':'qq.com','↓':'qq.com','→':'qq.com',
+            'Caps':'undefined','option':'undefined','command':'undefined','NIZ':'qq.com','Alt':'undefined','Fn':'undefined',
+            'Ctrl':'undefined','←':'undefined','↓':'undefined','→':'undefined',
         
     }
     // 浏览器中的hash

@@ -126,7 +126,7 @@ function initData(){
             'Shift':'qq.com','z':'qq.com','x':'qq.com','c':'cssgradient.io','v':'v2ex.com','b':'bilili.com','n':'qq.com',
             'm':'mcguffen.github.io',',':'qq.com','.':'qq.com','/':'qq.com','Shift':'qq.com','↑':'qq.com','End':'qq.com',
         
-            'Caps':'qq.com','option':'qq.com','command':'qq.com','niz':'qq.com','Alt':'qq.com','Fn':'qq.com',
+            'Caps':'qq.com','option':'qq.com','command':'qq.com','NIZ':'qq.com','Alt':'qq.com','Fn':'qq.com',
             'Ctrl':'qq.com','←':'qq.com','↓':'qq.com','→':'qq.com',
         
     }

@@ -102,7 +102,7 @@ function initData(){
         ],
         
         [
-            'Caps','option','command','niz','Alt','Fn',
+            'Caps','option','command','NIZ','Alt','Fn',
             'Ctrl','←','↓','→',
         ],
         
@@ -110,24 +110,24 @@ function initData(){
     // js中的hash,可以理解为初始化用到的数据。
     var hash = {
         
-            'esc':'qq.com','F1':'qq.com','F2':'qq.com','F3':'qq.com','F4':'qq.com','F5':'qq.com',
-            'F6':'qq.com','F7':'qq.com','F8':'qq.com','F9':'qq.com','F10':'qq.com','F11':'qq.com',
-            'F12':'qq.com','Print':'qq.com','Pause':'qq.com','Del':'qq.com',
+            'esc':'q','F1':'q','F2':'q','F3':'q','F4':'q','F5':'q',
+            'F6':'q','F7':'q','F8':'q','F9':'q','F10':'q','F11':'q',
+            'F12':'q','Print':'q','Pause':'q','Del':'q',
         
-            '`':'diandian.com','1':'qq.com','2':'qq.com','3':'qq.com','4':'qq.com','5':'qq.com','6':'qq.com',
-            '7':'qq.com','8':'qq.com','9':'qq.com','0':'qq.com','-':'qq.com','=':'qq.com','Back':'qq.com','Home':'qq.com',
+            '`':'diandian.com','1':'q','2':'q','3':'q','4':'q','5':'q','6':'q',
+            '7':'q','8':'q','9':'q','0':'q','-':'q','=':'q','Back':'q','Home':'q',
         
-            'Tab':'qq.com','q':'qq.com','w':'weibo.com','e':'','r':'qq.com','t':'','y':'youtube.com',
-            'u':'qq.com','i':'iconfont.cn','o':'qq.com','p':'qq.com','[':'qq.com',']':'qq.com','\\':'qq.com','Up':'qq.com',
+            'Tab':'q','q':'qq.com','w':'weibo.com','e':'','r':'q','t':'','y':'youtube.com',
+            'u':'q','i':'iconfont.cn','o':'q','p':'q','[':'q',']':'q','\\':'q','Up':'q',
         
-            'Ctrl':'qq.com','a':'acfun.com','s':'sm.ms','d':'dribble.com','f':'','g':'github.com','h':'qq.com',
-            'j':'jdbbs.com','k':'qq.com','l':'qq.com',';':'qq.com','\'':'qq.com','Enter':'qq.com','Down':'qq.com',
+            'Ctrl':'q','a':'acfun.com','s':'sm.ms','d':'dribble.com','f':'','g':'github.com','h':'q',
+            'j':'jdbbs.com','k':'q','l':'q',';':'q','\'':'q','Enter':'q','Down':'q',
         
-            'Shift':'qq.com','z':'qq.com','x':'qq.com','c':'cssgradient.io','v':'v2ex.com','b':'bilili.com','n':'qq.com',
-            'm':'mcguffen.github.io',',':'qq.com','.':'qq.com','/':'qq.com','Shift':'qq.com','↑':'qq.com','End':'qq.com',
+            'Shift':'q','z':'q','x':'q','c':'cssgradient.io','v':'v2ex.com','b':'bilili.com','n':'q',
+            'm':'mcguffen.github.io',',':'q','.':'q','/':'q','Shift':'q','↑':'q','End':'q',
         
-            'Caps':'qq.com','option':'qq.com','command':'qq.com','niz':'qq.com','Alt':'qq.com','Fn':'qq.com',
-            'Ctrl':'qq.com','←':'qq.com','↓':'qq.com','→':'qq.com',
+            'Caps':'q','option':'q','command':'q','NIZ':'qq.com','Alt':'q','Fn':'q',
+            'Ctrl':'q','←':'q','↓':'q','→':'q',
         
     }
     // 浏览器中的hash

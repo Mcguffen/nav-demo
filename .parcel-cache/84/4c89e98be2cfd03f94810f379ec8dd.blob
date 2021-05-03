@@ -498,8 +498,8 @@ function createButton(textName,id){
         var key = button.id
         // 就是在用户点击button的时候重新获取imgIconNew图片地址
         var imgIconNew = button.previousSibling
-        var userWebsiteEdit = prompt('请输入您想输入的website')
-        // 将用户输入的网址存入对应的hash中去
+        var userWebsiteEdit = prompt('请输入您想输入的undefined')
+        // 将用户输入的undefined存入对应的hash中去
         hash[key] = userWebsiteEdit // hash 变更
         imgIconNew.src = 'http://' + userWebsiteEdit + '/favicon.ico'
         imgIconNew.onerror = function(e){
@@ -546,7 +546,7 @@ function initData(){
         ],
         
         [
-            'Caps','option','command','niz','Alt','Fn',
+            'Caps','option','command','NIZ','Alt','Fn',
             'Ctrl','←','↓','→',
         ],
         
@@ -554,24 +554,24 @@ function initData(){
     // js中的hash,可以理解为初始化用到的数据。
     var hash = {
         
-            'esc':'qq.com','F1':'qq.com','F2':'qq.com','F3':'qq.com','F4':'qq.com','F5':'qq.com',
-            'F6':'qq.com','F7':'qq.com','F8':'qq.com','F9':'qq.com','F10':'qq.com','F11':'qq.com',
-            'F12':'qq.com','Print':'qq.com','Pause':'qq.com','Del':'qq.com',
+            'esc':'undefined','F1':'undefined','F2':'undefined','F3':'undefined','F4':'undefined','F5':'undefined',
+            'F6':'undefined','F7':'undefined','F8':'undefined','F9':'undefined','F10':'undefined','F11':'undefined',
+            'F12':'undefined','Print':'undefined','Pause':'undefined','Del':'undefined',
         
-            '`':'diandian.com','1':'qq.com','2':'qq.com','3':'qq.com','4':'qq.com','5':'qq.com','6':'qq.com',
-            '7':'qq.com','8':'qq.com','9':'qq.com','0':'qq.com','-':'qq.com','=':'qq.com','Back':'qq.com','Home':'qq.com',
+            '`':'diandian.com','1':'undefined','2':'undefined','3':'undefined','4':'undefined','5':'undefined','6':'undefined',
+            '7':'undefined','8':'undefined','9':'undefined','0':'undefined','-':'undefined','=':'undefined','Back':'undefined','Home':'undefined',
         
-            'Tab':'qq.com','q':'qq.com','w':'weibo.com','e':'','r':'qq.com','t':'','y':'youtube.com',
-            'u':'qq.com','i':'iconfont.cn','o':'qq.com','p':'qq.com','[':'qq.com',']':'qq.com','\\':'qq.com','Up':'qq.com',
+            'Tab':'undefined','q':'qq.com','w':'weibo.com','e':'','r':'undefined','t':'','y':'youtube.com',
+            'u':'undefined','i':'iconfont.cn','o':'undefined','p':'undefined','[':'undefined',']':'undefined','\\':'undefined','Up':'undefined',
         
-            'Ctrl':'qq.com','a':'acfun.com','s':'sm.ms','d':'dribble.com','f':'','g':'github.com','h':'qq.com',
-            'j':'jdbbs.com','k':'qq.com','l':'qq.com',';':'qq.com','\'':'qq.com','Enter':'qq.com','Down':'qq.com',
+            'Ctrl':'undefined','a':'acfun.com','s':'sm.ms','d':'dribble.com','f':'','g':'github.com','h':'undefined',
+            'j':'jdbbs.com','k':'undefined','l':'undefined',';':'undefined','\'':'undefined','Enter':'undefined','Down':'undefined',
         
-            'Shift':'qq.com','z':'qq.com','x':'qq.com','c':'cssgradient.io','v':'v2ex.com','b':'bilili.com','n':'qq.com',
-            'm':'mcguffen.github.io',',':'qq.com','.':'qq.com','/':'qq.com','Shift':'qq.com','↑':'qq.com','End':'qq.com',
+            'Shift':'undefined','z':'undefined','x':'undefined','c':'cssgradient.io','v':'v2ex.com','b':'bilili.com','n':'undefined',
+            'm':'mcguffen.github.io',',':'undefined','.':'undefined','/':'undefined','Shift':'undefined','↑':'undefined','End':'undefined',
         
-            'Caps':'qq.com','option':'qq.com','command':'qq.com','niz':'qq.com','Alt':'qq.com','Fn':'qq.com',
-            'Ctrl':'qq.com','←':'qq.com','↓':'qq.com','→':'qq.com',
+            'Caps':'undefined','option':'undefined','command':'undefined','long':'undefined','Alt':'undefined','Fn':'undefined',
+            'Ctrl':'undefined','←':'undefined','↓':'undefined','→':'undefined',
         
     }
     // 浏览器中的hash
@@ -610,7 +610,7 @@ function generateKeboard(keys,hash){
                     // 给按键添加一个编辑按钮
                     var button = createButton('edit',row[index2])
      
-                    // 添加网址icon图标
+                    // 添加undefinedicon图标
                     var imgIcon = createImgIcon(hash[row[index2]])
             
                     // 创建kbd标签
@@ -632,11 +632,11 @@ function listenToUser(hash){
             // 将当前浏览器页面地址换成我们按下按键对应的地址
             // 模拟用户在地址栏输入
             // location.href = 'http://' + website
-            //在浏览器新页面窗口打开我们按下按键对应的网址
+            //在浏览器新页面窗口打开我们按下按键对应的undefined
             // 模拟用户新打开一个浏览器页面
             window.open('http://' + website, '_blank')
     }
 }
 },{}]},["1sDb8","2X3X1"], "2X3X1", "parcelRequire427e")
 
-//# sourceMappingURL=index.23420cfa.js.map
+//# sourceMappingURL=index.HASH_REF_ba76236dc15f498c73ded0e523420cfa.js.map
