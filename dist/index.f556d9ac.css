@@ -30,11 +30,12 @@ kbd:hover > button{
 }
 #keyboard{
     display: inline-block;
-    background: rgb(200,200,200);
+    background: rgba(200,200,200,0.9);
     border-radius: 4px;
 }
 body{
-    background: red url(wall.d2db21db.jpg) no-repeat center center;
+    background: gray url(wall.d2db21db.jpg) no-repeat center center;
+    background-size:cover;
 }
 main{
     text-align: center;
