@@ -37,9 +37,18 @@ kbd:hover > button{
     background: rgb(200,200,200);
     border-radius: 4px;
 }
+
+body{
+    background: red url(./wall.jpg) no-repeat center center;
+}
 main{
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
+
 /* back键 */
 #keyboard>div:nth-child(2)>kbd:nth-child(14){
     height: 40px;

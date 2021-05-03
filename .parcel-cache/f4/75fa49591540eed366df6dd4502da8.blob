@@ -34,7 +34,7 @@ kbd:hover > button{
     border-radius: 4px;
 }
 body{
-    background: red url(wall.d2db21db.jpg) no-repeat center center;
+    background: red url(bf18ead1d35c310317394131d2d61e42) no-repeat c;
 }
 main{
     text-align: center;
@@ -126,5 +126,3 @@ main{
     width: 51px;
 
 }
-
-/*# sourceMappingURL=index.f556d9ac.css.map */
