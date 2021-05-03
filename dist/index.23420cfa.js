@@ -446,7 +446,7 @@ var key = [
     [
         'esc','F1','F2','F3','F4','F5',
         'F6','F7','F8','F9','F10','F11',
-        'F12','Print','Pause','Delete',
+        'F12','Print','Pause','Del',
     
     ],
     
@@ -457,12 +457,12 @@ var key = [
     
     [
         'Tab','q','w','e','r','t','y',
-        'U','I','O','P','[',']','.','\\','PageUp'
+        'U','I','O','P','[',']','\\','Up'
     ],
     
     [
         'Ctrl','a','s','d','f','g','h',
-        'j','k','l',';','\'','Enter','PageDown',
+        'j','k','l',';','\'','Enter','Down',
     ],
     
     [
@@ -481,16 +481,16 @@ var hash = {
     
         'esc':'网址','F1':'网址','F2':'网址','F3':'网址','F4':'网址','F5':'网址',
         'F6':'网址','F7':'网址','F8':'网址','F9':'网址','F10':'网址','F11':'网址',
-        'F12':'网址','Print Screen Sys Rq':'网址','Pause Break':'网址','Delete':'网址',
+        'F12':'网址','Print':'网址','Pause':'网址','Del':'网址',
     
         '`':'网址','1':'网址','2':'网址','3':'网址','4':'网址','5':'网址','6':'网址',
-        '7':'网址','8':'网址','9':'网址','0':'网址','-':'网址','=':'网址','Backspace':'网址','Home':'网址',
+        '7':'网址','8':'网址','9':'网址','0':'网址','-':'网址','=':'网址','Back':'网址','Home':'网址',
     
         'Tab':'网址','q':'qq.com','w':'weibo.com','e':'网址','r':'网址','t':'网址','y':'网址',
-        'u':'网址','i':'网址','o':'网址','p':'网址','[':'网址',']':'网址','.':'网址','\\':'网址','PageUp':'网址',
+        'u':'网址','i':'网址','o':'网址','p':'网址','[':'网址',']':'网址','\\':'网址','Up':'网址',
     
         'Ctrl':'网址','a':'网址','s':'网址','d':'网址','f':'网址','g':'网址','h':'网址',
-        'j':'网址','k':'网址','l':'网址',';':'网址','\'':'网址','Enter':'网址','PageDown':'网址',
+        'j':'网址','k':'网址','l':'网址',';':'网址','\'':'网址','Enter':'网址','Down':'网址',
     
         'Shift':'网址','z':'网址','x':'网址','c':'网址','v':'网址','b':'网址','n':'网址',
         'm':'网址',',':'网址','.':'网址','/':'网址','Shift':'网址','↑':'网址','End':'网址',
@@ -501,7 +501,7 @@ var hash = {
 }
 // 浏览器中的hash
 // 取出localStorage中的'userWebsiteEdit'内容，因为是字符串所以解析成hash
-var hashInLocalStorage = JSON.parse(localStorage.getItem('userWebsiteEdit') || '')
+var hashInLocalStorage = JSON.parse(localStorage.getItem('userWebsiteEdit') || 'null')
 
 // 覆盖修改前的js给浏览器的hash 
 if(hashInLocalStorage){
@@ -518,12 +518,14 @@ while(index < key.length){
     row = key[index]
     // console.log(row)
     div = document.createElement("div")
+    div.className = 'row'
     keyboard.appendChild(div)
 
     index2 = 0
     while(index2 < row.length){
         kbd = document.createElement('kbd')
         kbd.textContent = row[index2]
+        kbd.className = 'key'
         // 给按键添加一个编辑按钮
         buttonEdit = document.createElement('button')
         buttonEdit.textContent = "edit"
