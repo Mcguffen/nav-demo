@@ -13,6 +13,10 @@ position: relative;
     align-items: center;
     justify-content: center;
 }
+.key > img{
+    width: 12px;
+    height: 12px;
+}
 .row{
     margin: 8px;
 }
@@ -24,6 +28,15 @@ kbd > button{
     right: 0;
     bottom: 0;
     display: none;
+}
+kbd > img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+kbd:hover > img{
+    display: inline-block;
 }
 kbd:hover > button{
     display: inline-block;
