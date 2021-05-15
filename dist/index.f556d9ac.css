@@ -199,5 +199,120 @@ main{
     background: rgb(204,209,213);
 
 }
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    /* transform: translateY(0);
+    transition: transform 0.3s ease; */
+    background: rgba(20, 12, 12, 0.3);
+    position: relative;
+}
+.site-nav{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.site-nav::after{
+    content: "";
+    height: 5px;
+    opacity: 1;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 2050;
+    bottom: 0;
+    left: 0;
+}
+#container{
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo{
+    width: 125px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+}
+#logo > a > img{
+    height: 30px;
+    height: 30px;
+    max-width: 100%;
+    vertical-align: top;
+}
+#center{
+    flex: 0 1 228px;
+    min-width: 0px;
 
+}
+#search{
+    width: 50%;
+}
+#search-button{
+    cursor: pointer;
+}
+#audio-button{
+    cursor: pointer;
+
+}
+#end{
+    position: absolute;
+    width: 525px;
+    right: 0;
+
+}
+.col-auto>.navbar{
+    float: left;
+}
+.col-auto>.app-nav-toggle{
+    float: left;
+}
+.app-nav-toggle .lines>div{
+    position: absolute;
+    background: #fff;
+    width: 22px;
+    height: 2.5px;
+    border-radius: 100px;
+    
+}
+.app-nav-toggle .lines .line-1{
+    top: 8px;
+}
+.app-nav-toggle .lines .line-2{
+    top: 12px;
+}
+.app-nav-toggle .lines .line-3{
+    top: 16px;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+nav>div>ul {
+    list-style: none;
+
+}
+nav>div>ul>li{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+nav>div>ul>li>a{
+    font-size: 12px;
+    color: rgb(131,131,131);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+}
+nav>div>ul>li>a:hover{
+    border-bottom: 1px solid red;
+}
 /*# sourceMappingURL=index.f556d9ac.css.map */
