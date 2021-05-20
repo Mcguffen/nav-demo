@@ -247,21 +247,23 @@ header{
     height: 35px;
     position: absolute;
     left: 0;
+    display: flex;
+    justify-content: start;
 }
 #logo > a > img{
     height: 30px;
     height: 30px;
-    max-width: 100%;
-    vertical-align: top;
+    /* max-width: 100%; */
+    /* vertical-align: top; */
 }
 #center{
-    /* flex: 0 1 228px; */
-    /* min-width: 0px; */
-    width: 400px;
+    
+    display: flex;
+    justify-content: center;
 
 }
 #search{
-    width: 300px
+    /* width: 300px */
 }
 
 
@@ -269,6 +271,8 @@ header{
     position: absolute;
     width: 425px;
     right: 0;
+    display: flex;
+    justify-content: end;
 
 }
 .col-auto>.navbar{
@@ -284,7 +288,6 @@ header{
     width: 22px;
     height: 2.5px;
     border-radius: 100px;
-    
 }
 .app-nav-toggle .lines .line-1{
     top: 4px;
@@ -300,6 +303,7 @@ header{
     content: '';
     display: block;
     clear: both;
+    zoom: 1;
 }
 
 nav>div>ul>li{
