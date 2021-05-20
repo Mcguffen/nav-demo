@@ -317,7 +317,7 @@ nav>div>ul>li>a{
     font-weight: bold;
     border-bottom: 2px solid transparent;
     display: block;
-    /* padding-bottom: 5px; */
+    padding-bottom: 5px;
 }
 nav>div>ul>li>a:hover{
     border-bottom: 2px solid #e06567;
