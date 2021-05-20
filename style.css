@@ -243,7 +243,7 @@ header{
     justify-content: center;
 }
 #logo{
-    width: 125px;
+    width: 165px;
     height: 35px;
     position: absolute;
     left: 0;
@@ -255,12 +255,13 @@ header{
     vertical-align: top;
 }
 #center{
-    flex: 0 1 228px;
-    min-width: 0px;
+    /* flex: 0 1 228px; */
+    /* min-width: 0px; */
+    width: 400px;
 
 }
 #search{
-    width: 50%;
+    width: 300px
 }
 #search-button{
     cursor: pointer;
@@ -271,7 +272,7 @@ header{
 }
 #end{
     position: absolute;
-    width: 525px;
+    width: 425px;
     right: 0;
 
 }
@@ -280,6 +281,7 @@ header{
 }
 .col-auto>.app-nav-toggle{
     float: left;
+    cursor: pointer;
 }
 .app-nav-toggle .lines>div{
     position: absolute;
@@ -290,13 +292,13 @@ header{
     
 }
 .app-nav-toggle .lines .line-1{
-    top: 8px;
+    top: 4px;
 }
 .app-nav-toggle .lines .line-2{
-    top: 12px;
+    top: 8px;
 }
 .app-nav-toggle .lines .line-3{
-    top: 16px;
+    top: 12px;
 }
 
 .clearfix::after{
@@ -304,10 +306,7 @@ header{
     display: block;
     clear: both;
 }
-nav>div>ul {
-    list-style: none;
 
-}
 nav>div>ul>li{
     float: left;
     margin-left: 17px;
@@ -319,7 +318,7 @@ nav>div>ul>li>a{
     font-weight: bold;
     border-bottom: 2px solid transparent;
     display: block;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 nav>div>ul>li>a:hover{
     border-bottom: 2px solid #e06567;
@@ -328,3 +327,46 @@ a{
     color: inherit;
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
+.footer-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-container>.footer-row{
+    float: left;
+}
+
+.about{
+    float: left;
+}
+.know{
+    float: left;
+}
+.footer-row{
+    margin-left: auto;
+    
+}
+.footer-row:nth-child(1){
+    width: 50%;
+}
+.footer-row:nth-child(2){
+    width: 50%;
+    
+}
+.site-footer .widget{
+    margin-bottom: 30px;
+}
+.site-footer .widget .widget-title{
+    padding: 0;
+    padding-bottom: 20px;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
