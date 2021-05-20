@@ -263,13 +263,8 @@ header{
 #search{
     width: 300px
 }
-#search-button{
-    cursor: pointer;
-}
-#audio-button{
-    cursor: pointer;
 
-}
+
 #end{
     position: absolute;
     width: 425px;
@@ -370,3 +365,16 @@ h5{
     font-weight: 500;
 }
 
+#center > #search > form > .button{
+    border: 0;
+    background: rgb(26, 115, 232);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 1px 2px;
+    transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+#center > #search > form > #q{
+    border: 0;
+    border-radius: 4px;
+    padding: 1px 2px;
+}
