@@ -13,7 +13,7 @@
         <div class="loading"></div>
     </div>
     <header>
-        <div class="site-nav">
+        <div class="site-nav" id="siteNav">
             <div id="container">
                 <div id="logo">
                     <a href="https://github.com/Mcguffen" alt="logo"></a>
@@ -107,7 +107,15 @@
     <script>
         setTimeout(function(){
             siteWelcome.classList.remove('active')
-        },3000)    
+        },3000)   
+        
+        window.onscroll = function(){
+            if(window.scrollY > 0){
+                siteNav.classList.add('sticky')
+            }else{
+                siteNav.classList.remove('sticky')
+            }
+        }
     </script>
 </body>
 </html>
