@@ -299,11 +299,13 @@ header{
     top: 12px;
 }
 
+.clearfix{
+    zoom: 1;
+}
 .clearfix::after{
     content: '';
     display: block;
     clear: both;
-    zoom: 1;
 }
 
 nav>div>ul>li{
