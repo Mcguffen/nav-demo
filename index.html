@@ -33,7 +33,12 @@
                         <nav class="navbar">
                             <div>
                                 <ul class="clearfix">
-                                    <li><a href="https://github.com/Mcguffen/HTML-CSS">html</a></li>
+                                    <li class="menuTigger"><a href="https://github.com/Mcguffen/HTML-CSS">html</a>
+                                    <ul class="subMenu">
+                                        <li>作品1</li>
+                                        <li>作品2</li>
+                                        <li>作品3</li>
+                                    </ul></li>
                                     <li><a href="https://github.com/Mcguffen/yinyang">css</a></li>
                                     <li><a href="https://github.com/Mcguffen/canvas">js</a></li>
                                     <li><a href="https://github.com/Mcguffen/vue-demo">vue</a></li>
@@ -114,6 +119,15 @@
                 siteNav.classList.add('sticky')
             }else{
                 siteNav.classList.remove('sticky')
+            }
+        }
+        let liTags = document.getElementsByClassName('menuTigger')
+        for(let i=0; i<liTags.length;i++){
+            liTags[i].onmouseenter =function(x){
+                x.currentTarget.classList.add('active')
+            }
+            liTags[i].onmouseleave = function(x){
+                x.currentTarget.classList.remove('active')
             }
         }
     </script>
