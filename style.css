@@ -367,6 +367,13 @@ nav>div>ul>li.active>a::after{
 }
 .site-nav li.active >.subMenu{
     display: block;
+    animation: subMenuSlide 0.3s;
+
+}
+
+@keyframes subMenuSlide {
+    0%{margin-right: 100%;}
+    100%{margin-right: 0%;}
 }
 a{
     color: inherit;
