@@ -335,10 +335,24 @@ nav>div>ul>li>a{
     border-bottom: 2px solid transparent;
     display: block;
     padding-bottom: 5px;
+    position: relative;
 }
-nav>div>ul>li>a:hover{
-    border-bottom: 2px solid #e06567;
+nav>div>ul>li>a:hover::after{
+    position: absolute;
+    content: '';
+    display: block;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #e06567;
+    height: 3px;
+    animation: menuSlide 0.3s;
 }
+@keyframes menuSlide {
+    0%{width: 0;}
+    100%{width: 100%;}
+}
+
 a{
     color: inherit;
     text-decoration: none;
