@@ -33,7 +33,7 @@
                         <nav class="navbar">
                             <div>
                                 <ul class="clearfix">
-                                    <li class="menuTigger"><a href="https://github.com/Mcguffen/HTML-CSS">html</a>
+                                    <li><a href="https://github.com/Mcguffen/HTML-CSS">html</a>
                                     <ul class="subMenu">
                                         <li>作品1</li>
                                         <li>作品2</li>
@@ -121,7 +121,7 @@
                 siteNav.classList.remove('sticky')
             }
         }
-        let liTags = document.getElementsByClassName('menuTigger')
+        let liTags = document.querySelectorAll('nav > div > ul > li')
         for(let i=0; i<liTags.length;i++){
             liTags[i].onmouseenter =function(x){
                 x.currentTarget.classList.add('active')
