@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的导航</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./loading.css">
 </head>
 <body class="no-touch">
+    <div class="site-welcome active" id="siteWelcome">
+        <div class="loading"></div>
+    </div>
     <header>
         <div class="site-nav">
             <div id="container">
@@ -99,6 +103,11 @@
     </footer> -->
     <script src="./main.js">
 
+    </script>
+    <script>
+        setTimeout(function(){
+            siteWelcome.classList.remove('active')
+        },3000)    
     </script>
 </body>
 </html>
