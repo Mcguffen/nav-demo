@@ -34,16 +34,17 @@
                                 <ul class="clearfix">
                                     <li><a href="https://github.com/Mcguffen/HTML-CSS">html</a>
                                         <ul class="subMenu">
-                                            <li>作品1</li>
-                                            <li>作品2</li>
-                                            <li>作品3</li>
+                                            <li><a href="https://wangdoc.com/html/">阮一峰html</a></li>
+                                            <li><a href="https://mcguffen.github.io/tags/html/">我的html</a></li>
+                                            <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML">MDN</a></li>
                                         </ul>
                                      </li>
                                     <li><a href="https://github.com/Mcguffen/yinyang">css</a>
                                         <ul class="subMenu">
-                                            <li>作品1</li>
-                                            <li>作品2</li>
-                                            <li>作品3</li>
+                                            <li><a href="https://wangdoc.com/html/">阮一峰css</a></li>
+                                            <li><a href="https://mcguffen.github.io/tags/css/">我的css</a></li>
+                                            <li><a href="https://css-tricks.com/"> css-tricks</a></li>
+                                            <li><a href="https://cssgradient.io/">csss-gradient</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="https://github.com/Mcguffen/canvas">js</a>
@@ -77,11 +78,18 @@
                                 </ul>
                             </div>
                         </nav>
-                        <div class="app-nav-toggle">
+                        <div class="aside-toggle">
                             <div class="lines">
                                 <div class="line-1"></div>
                                 <div class="line-2"></div>
                                 <div class="line-3"></div>
+                            </div>
+                            <div class="sideBar hide">
+                                <div class="closed"><div class="x">X</div></div>
+                                
+                                <div class="sideBar-fixed">
+                                    我是侧边栏
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -136,30 +144,7 @@
             </div>
         </div>
     </footer> -->
-    <script src="./main.js">
-
-    </script>
-    <script>
-        setTimeout(function(){
-            siteWelcome.classList.remove('active')
-        },1000)   
-        
-        window.onscroll = function(){
-            if(window.scrollY > 0){
-                siteNav.classList.add('sticky')
-            }else{
-                siteNav.classList.remove('sticky')
-            }
-        }
-        let liTags = document.querySelectorAll('nav > div > ul > li')
-        for(let i=0; i<liTags.length;i++){
-            liTags[i].onmouseenter =function(x){
-                x.currentTarget.classList.add('active')
-            }
-            liTags[i].onmouseleave = function(x){
-                x.currentTarget.classList.remove('active')
-            }
-        }
-    </script>
+    <script src="./main.js"></script>
+    <script src="./header.js"></script>
 </body>
 </html>

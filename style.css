@@ -292,24 +292,24 @@ header{
 .col-auto>.navbar{
     float: left;
 }
-.col-auto>.app-nav-toggle{
+.col-auto>.aside-toggle{
     float: left;
     cursor: pointer;
 }
-.app-nav-toggle .lines>div{
+.aside-toggle .lines>div{
     position: absolute;
     background: #fff;
     width: 22px;
     height: 2.5px;
     border-radius: 100px;
 }
-.app-nav-toggle .lines .line-1{
+.aside-toggle .lines .line-1{
     top: 4px;
 }
-.app-nav-toggle .lines .line-2{
+.aside-toggle .lines .line-2{
     top: 8px;
 }
-.app-nav-toggle .lines .line-3{
+.aside-toggle .lines .line-3{
     top: 12px;
 }
 
@@ -365,6 +365,7 @@ nav>div>ul>li.active>a::after{
 .site-nav .subMenu > li{
     white-space: nowrap;
     padding: 5px 10px;
+    cursor: pointer;
 }
 .site-nav li.active >.subMenu{
     display: block;
@@ -435,4 +436,46 @@ h5{
     border: 0;
     border-radius: 4px;
     padding: 1px 2px;
+}
+.hide{
+    display: none;
+}
+.sideBar{
+    position: relative;
+}
+.closed{
+    border: 1px solid red;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#e8676b;
+    position: absolute;
+    top: 25px;
+    left: -377px;
+    
+}
+.x{
+    border: 1px solid yellow;
+    width: 29px;
+    font-size: 29px;
+    line-height: 29px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+
+
+ 
+}
+.sideBar-fixed{
+    z-index: 100;
+    width: 385px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(200,200,200,0.9);
+    top: 0;   
+    right: 0; 
+    position: fixed;
 }

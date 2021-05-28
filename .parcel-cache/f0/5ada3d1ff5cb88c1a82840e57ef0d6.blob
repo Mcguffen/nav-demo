@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的导航</title>
+    <link rel="stylesheet" href="563fd50d718577864c67592ae4509f0a">
+    <link rel="stylesheet" href="95296ad04db8480f05ee24dd4bfc6a5f">
+</head>
+<body class="no-touch">
+    <div class="site-welcome active" id="siteWelcome">
+        <div class="loading"></div>
+    </div>
+    <header>
+        <div class="site-nav" id="siteNav">
+            <div id="container">
+                <div id="logo" style="3c476619397c6480880a5a277b332368">
+                    <a href="e54bbabc4c7910c6d19a9309a08e7fb3" alt="logo"></a>
+                </div>
+                <div id="center">
+                    <div id="search">
+                        <form name="s" action="https://www.baidu.com/s" class="clearfix" method="GET" target="_blank">
+                            <input type="text" id="q" name="wd" placeholder="搜索">
+                            <input type="button" class="button" onclick="window.open('https://www.baidu.com/s?wd='+s.wd.value,'')" value="百度一下">
+                            <input type="button" class="button" onclick="window.open('https://www.google.com/s?wd='+s.wd.value,'')" value="谷歌一下">
+                        </form>
+                    </div>
+                </div>
+                <div id="end">
+                    <div class="col-auto clearfix">
+                        <nav class="navbar">
+                            <div>
+                                <ul class="clearfix">
+                                    <li><a href="f139382517384f22c2604b3ddd398165">html</a>
+                                        <ul class="subMenu">
+                                            <li><a href="e26d17f63a79e34914ac2a707bc1ce33">阮一峰html</a></li>
+                                            <li><a href="c5a8a632e21aba06024cc33f8348d62d">我的html</a></li>
+                                            <li><a href="802a541f64d6d14637a8f472ccde3920">MDN</a></li>
+                                        </ul>
+                                     </li>
+                                    <li><a href="55d928ed86abd60a21c817ec4b4b22f8">css</a>
+                                        <ul class="subMenu">
+                                            <li><a href="e26d17f63a79e34914ac2a707bc1ce33">阮一峰css</a></li>
+                                            <li><a href="29f2dbcd06c8ff66fdb66127d117394a">我的css</a></li>
+                                            <li><a href="8717c83c9cb10761432cd08233fe9c20"> css-tricks</a></li>
+                                            <li><a href="4896d54d76ee32fd4f6884e52b03e077">csss-gradient</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="4af360ff7b83c261910716b0fac232b3">js</a>
+                                        <ul class="subMenu">
+                                            <li>作品1</li>
+                                            <li>作品2</li>
+                                            <li>作品3</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="18e1e44317c6c105d2202c4052490c93">vue</a>
+                                        <ul class="subMenu">
+                                            <li>作品1</li>
+                                            <li>作品2</li>
+                                            <li>作品3</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="894a3e17da9abddab77a84e73124ff7e">react</a>
+                                        <ul class="subMenu">
+                                            <li>作品1</li>
+                                            <li>作品2</li>
+                                            <li>作品3</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="3129ed85dc2a6a33ff4144f03af4a6d5">Vue轮子</a>
+                                        <ul class="subMenu">
+                                            <li>作品1</li>
+                                            <li>作品2</li>
+                                            <li>作品3</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="aside-toggle">
+                            <div class="lines">
+                                <div class="line-1"></div>
+                                <div class="line-2"></div>
+                                <div class="line-3"></div>
+                            </div>
+                            <div class="sideBar hide">
+                                <div class="closed"><div class="x">X</div></div>
+                                
+                                <div class="sideBar-fixed">
+                                    我是侧边栏
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <main>
+            <div class="wrapper" id="keyboard"></div>
+        </main>
+        
+
+        
+    <!-- <footer id="site-footer">
+        <div class="footer-container clearfix">
+            <div class="footer-row">
+                <div class="footer-left">
+                        <img src="https://camo.githubusercontent.com/81cc98f426bb09d4ee8d69de6e79de23110c84a11443c4644fc14a0a78b1531e/68747470733a2f2f6d6367756666656e2e6769746875622e696f2f696d616765732f66617669636f6e2e69636f" alt="">
+
+                    
+                    
+
+                    <div>
+                        <a href="//github.com"></a>
+                        <a href=""></a>
+                        <p>Copyright (C) 2021 mcguffen.github.io All rights reserved</p>
+                    </div>
+                </div>
+  
+                
+                
+            </div>
+            <div class="footer-row clearfix">
+                <div class="about">
+                    <div class="widget"></div>
+                    <h5 class="widget-title"></h5>
+                    <ul>
+                        <li><a href="">投放广告</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">借用网址</a></li>
+                    </ul>
+                </div>
+                <div class="know">
+                    <div class="widget"></div>
+                    <h5 class="widget-title"></h5>
+                    <ul>
+                        <li><a href="">用前须知</a></li>
+                        <li><a href="">使用条款</a></li>
+                        <li><a href="">滥用报告</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <script src="aa11d2584d9ab77f29698b85156e064e"></script>
+    <script src="f635049a4fe50f62046a8d04b07f529c"></script>
+</body>
+</html>

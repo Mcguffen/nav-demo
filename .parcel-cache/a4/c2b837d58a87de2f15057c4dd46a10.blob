@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的导航</title>
+    <link rel="stylesheet" href="/index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css">
+    <link rel="stylesheet" href="/index.HASH_REF_a78174e9638983c4b599660b4c577123.css">
+</head>
+<body class="no-touch">
+    <div class="site-welcome active" id="siteWelcome">
+        <div class="loading"></div>
+    </div>
+    <header>
+        <div class="site-nav" id="siteNav">
+            <div id="container">
+                <div id="logo" style="background-image: url(logo.HASH_REF_395dec33c99d1fdcae1e198e619c100b.ico);
+">
+                    <a href="https://github.com/Mcguffen" alt="logo"></a>
+                </div>
+                <div id="center">
+                    <div id="search">
+                        <form name="s" action="https://www.baidu.com/s" class="clearfix" method="GET" target="_blank">
+                            <input type="text" id="q" name="wd" placeholder="搜索">
+                            <input type="button" class="button" onclick="window.open('https://www.baidu.com/s?wd='+s.wd.value,'')" value="百度一下">
+                            <input type="button" class="button" onclick="window.open('https://www.google.com/s?wd='+s.wd.value,'')" value="谷歌一下">
+                        </form>
+                    </div>
+                </div>
+                <div id="end">
+                    <div class="col-auto clearfix">
+                        <nav class="navbar">
+                            <div>
+                                <ul class="clearfix">
+                                    <li><a href="https://github.com/Mcguffen/HTML-CSS">html</a>
+                                        <ul class="subMenu">
+                                            <li><a href="https://wangdoc.com/html/">阮一峰html</a></li>
+                                            <li><a href="https://mcguffen.github.io/tags/html/">我的html</a></li>
+                                            <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML">MDN</a></li>
+                                        </ul>
+                                     </li>
+                                    <li><a href="https://github.com/Mcguffen/yinyang">css</a>
+                                        <ul class="subMenu">
+                                            <li><a href="https://wangdoc.com/html/">阮一峰css</a></li>
+                                            <li><a href="https://mcguffen.github.io/tags/css/">我的css</a></li>
+                                            <li><a href="https://css-tricks.com/"> css-tricks</a></li>
+                                            <li><a href="https://cssgradient.io/">csss-gradient</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/Mcguffen/canvas">js</a>
+                                        <ul class="subMenu">
+                                            <li>作品1</li>
+                                            <li>作品2</li>
+                                            <li>作品3</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/Mcguffen/vue-demo">vue</a>
+                                        <ul class="subMenu">
+                                            <li>作品1</li>
+                                            <li>作品2</li>
+                                            <li>作品3</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/Mcguffen/react-demo">react</a>
+                                        <ul class="subMenu">
+                                            <li>作品1</li>
+                                            <li>作品2</li>
+                                            <li>作品3</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="https://github.com/Mcguffen/gulu">Vue轮子</a>
+                                        <ul class="subMenu">
+                                            <li>作品1</li>
+                                            <li>作品2</li>
+                                            <li>作品3</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="aside-toggle">
+                            <div class="lines">
+                                <div class="line-1"></div>
+                                <div class="line-2"></div>
+                                <div class="line-3"></div>
+                            </div>
+                            <div class="sideBar">
+                                <div class="closed"><div class="x">x</div></div>
+                                
+                                <div class="sideBar-fixed">
+                                    我是侧边栏
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <main>
+            <div class="wrapper" id="keyboard"></div>
+        </main>
+        
+
+        
+    <!-- <footer id="site-footer">
+        <div class="footer-container clearfix">
+            <div class="footer-row">
+                <div class="footer-left">
+                        <img src="https://camo.githubusercontent.com/81cc98f426bb09d4ee8d69de6e79de23110c84a11443c4644fc14a0a78b1531e/68747470733a2f2f6d6367756666656e2e6769746875622e696f2f696d616765732f66617669636f6e2e69636f" alt="">
+
+                    
+                    
+
+                    <div>
+                        <a href="//github.com"></a>
+                        <a href=""></a>
+                        <p>Copyright (C) 2021 mcguffen.github.io All rights reserved</p>
+                    </div>
+                </div>
+  
+                
+                
+            </div>
+            <div class="footer-row clearfix">
+                <div class="about">
+                    <div class="widget"></div>
+                    <h5 class="widget-title"></h5>
+                    <ul>
+                        <li><a href="">投放广告</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li><a href="">借用网址</a></li>
+                    </ul>
+                </div>
+                <div class="know">
+                    <div class="widget"></div>
+                    <h5 class="widget-title"></h5>
+                    <ul>
+                        <li><a href="">用前须知</a></li>
+                        <li><a href="">使用条款</a></li>
+                        <li><a href="">滥用报告</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <script src="/index.HASH_REF_ba76236dc15f498c73ded0e523420cfa.js"></script>
+    <script src="/index.HASH_REF_a90345f8935b9abd1c1d8d7ceed210fe.js"></script>
+</body>
+</html>

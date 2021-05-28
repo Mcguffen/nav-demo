@@ -1,0 +1,34 @@
+setTimeout(function(){
+    siteWelcome.classList.remove('active')
+},1000)   
+
+window.onscroll = function(){
+    if(window.scrollY > 0){
+        siteNav.classList.add('sticky')
+    }else{
+        siteNav.classList.remove('sticky')
+    }
+}
+let liTags = document.querySelectorAll('nav > div > ul > li')
+for(let i=0; i<liTags.length;i++){
+    liTags[i].onmouseenter =function(x){
+        x.currentTarget.classList.add('active')
+    }
+    liTags[i].onmouseleave = function(x){
+        x.currentTarget.classList.remove('active')
+    }
+}
+
+// 监听click事件
+let lines = document.querySelector('.lines')
+let sidebar = document.querySelector('.sdieBar')
+lines.onclick = function(e){
+  lines.parentNode.classList.add('toggled')
+  lines.classList.add('hide')
+}
+
+// let toggled = document.querySelector('.sideBar > .toggled')
+// toggled.onclick = function(e){
+//   toggled.parentNode.parentNode.classList.remove('toggled')
+//   lines.classList.remove('hide')
+// }
